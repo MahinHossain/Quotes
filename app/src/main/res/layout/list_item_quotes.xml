@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:id="@+id/quoteContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#8A1B85"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:src="@drawable/quoicon" />
+
+        <TextView
+            android:id="@+id/textQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The quick brown fox jumped over  the lazy dog"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</LinearLayout>
